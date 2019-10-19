@@ -1,0 +1,22 @@
+def adc():
+    print("Digite o nome da pessoa")
+    fila.append(input())
+def remove():
+    fila.remove(fila[0])
+
+
+
+fila= ['Alisson','Alexia']
+while len(fila)>0:
+    print('a fila esta: ',fila)
+    print('Voce deseja :')
+    print('1 - Adicionar alguem a fila')
+    print('2 - Atender a primeira pessoa')
+    opcao = int(input())
+    if opcao == 1:
+        adc()
+    elif opcao == 2:
+        remove ()
+    else:
+        print ("opcao invalida")
+        
