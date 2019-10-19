@@ -1,0 +1,6 @@
+idades =[78, 42, 25, 18, 12]#LISTA para n precisar criar variaveis demais
+total = 0
+for idade in idades:
+      total = total + idade 
+      total = total/len (idades)#len pega a quantidade que tem na array idades ,por tanto se acrescentar ou retirar ele ja conta automaticamente
+print ("Total {}".format (total))
